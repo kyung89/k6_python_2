@@ -90,3 +90,17 @@ d1["정원"] = list(map(int, input().split()))
 # 입력: 1 2 3 4 5
 d1 # {"정원": [1,2,3,4,5]}
 
+# data 변형 map("f", data)
+# data 조건 filter("f", data)
+# data 줄이기 reduce("f", data)
+
+data = range(11)
+square = lambda x:x**2
+even = lambda x:x%2 ==0
+square(2)
+
+list(map(square, data)) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+list(filter(even, data)) # [0, 2, 4, 6, 8, 10]
+
+add = lambda a,b:a+b
+reduce(add, data) #55
