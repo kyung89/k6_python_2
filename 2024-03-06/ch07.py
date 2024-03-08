@@ -103,4 +103,4 @@ list(map(square, data)) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 list(filter(even, data)) # [0, 2, 4, 6, 8, 10]
 
 add = lambda a,b:a+b
-reduce(add, data) #55
+reduce(add, data) #550
