@@ -100,7 +100,7 @@ print()
 
 # test.py [1] 참조할 것 START
 top = Path('aaa') # aaa 폴더에 있는 모든 것 삭제하는 코드임!
-for root, dirs, files in os.walk(top, topdown=False): # 체크 필요
+for root, dirs, files in os.walk(top, topdown=False): 
     for name in files:
         os.unlink(root +"/"+ name)
     for name in dirs:
