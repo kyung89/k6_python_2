@@ -22,3 +22,6 @@ for row_idx in range(N):
 
 for row in C:
     print(" ".join(row))
+
+# numpy 를 사용하면 매우 쉬워집니다!
+# np.array(A) + np.array(B)

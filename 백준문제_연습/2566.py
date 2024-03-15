@@ -10,3 +10,5 @@ for i in range(9):
 
 print(max_num)
 print(str(row_num) + " " + str(col_num))
+
+# enumerate(data, start=1) 사용하면 1부터 시작!
